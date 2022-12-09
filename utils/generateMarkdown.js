@@ -46,7 +46,7 @@ function generateMarkdown(data) {
   *[Contact](#contact)
 
   ## Description
-  ${data.description} - naming all these now so its easy to create questions in the index.js file JUST NEED TO REMEMBER TO DELETE THESE COMMENTS 
+  ${data.description} 
 
   ## Requirements
   ${data.requirements}
@@ -60,11 +60,11 @@ function generateMarkdown(data) {
   ## License 
   ${renderLicenseSection(data.license)}
 
-  ##Examples 
+  ## Examples 
   ${data.examples}
 
-  ##Contact 
-  Thank you for your interest in my project, ${data.title}! 
+  ## Contact 
+  Thank you for your interest in my application, ${data.title}! 
   If you have any questions, concerns, or would like to reach out for any other reason;
   My Github: ${data.gitCredentials}
   My Email: ${data.email}
