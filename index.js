@@ -101,8 +101,8 @@ const questions = [
         type: 'input',
         name: 'useage',
         message: 'How will users use your app? Please provide instructions on how to operate or navigate your application:',
-        validate: usageInput => {
-            if (usageInput) {
+        validate: useageInput => {
+            if (useageInput) {
                 return true;
             } else {
                 console.log ("You must explain how to use your application.");
