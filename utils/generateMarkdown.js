@@ -43,8 +43,8 @@ function generateMarkdown(data) {
   * [Useage](#useage) 
   * [Licence](#licence) 
   * [Contributions](#contributions)
-  * [Examples](#examples) 
-  * [Contact](#contact) 
+  * [Tests](#tests) 
+  * [Questions](#questions) 
  
   ## Description
   ${data.description} 
@@ -58,7 +58,7 @@ function generateMarkdown(data) {
   ## Useage
   ${data.useage}
 
-  ## License 
+  ## Licence 
   ${renderLicenseSection(data.license)}
 
   ## Contributions
