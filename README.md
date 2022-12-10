@@ -1,17 +1,18 @@
 
-  # README Generator Using NodeJS
+  # README Generator using NodeJS
 
-  [![unlicense license](https://img.shields.io/badge/License-unlicense] ([unlicense] (https://choosealicense.com/licenses/unlicense))
+  [![unlicense license](https://img.shields.io/badge/License-unlicense-brightgreen.svg] ([unlicense] (https://choosealicense.com/licenses/unlicense))
   
   ## Table of Contents 
-  *[Description](#description)
-  *[Requirements](#requirements)
-  *[Installation](#installation)
-  *[useage](#useage)
-  *[licence](#licence) 
-  *[Examples](#examples)
-  *[Contact](#contact)
-
+  * [Description](#description) 
+  * [Requirements](#requirements) 
+  * [Installation](#installation) 
+  * [Useage](#useage) 
+  * [Licence](#licence) 
+  * [Contributions](#contributions)
+  * [Examples](#examples) 
+  * [Contact](#contact) 
+ 
   ## Description
   When it comes to README files, most people starting out with coding projects (and many people who have been in the industry for a long time), falter when it comes to their README for their projects. A good README not only provides professionalism, but it also makes it easier for other people to utilize and contribute to your application. This README genreator helps solve that issue, by providing users with a template of what should be included in their READMEs, all the while letting them input information to fill in each section. 
 
@@ -28,14 +29,17 @@
   
     *[License](#license)
 
-  ## Examples 
-  Video walkthrough of application: 
+  ## Contributions
+  I am not accepting contributions at this time, thank you!
 
-  ## Contact 
-  Thank you for your interest in my application, README Generator Using NodeJS! 
+  ## Tests 
+  Video Walkthrough of Application: 
+
+  ## Questions 
+  Thank you for your interest in my application, README Generator using NodeJS! 
   If you have any questions, concerns, or would like to reach out for any other reason;
   My Github: JoshuaOrlandoR
   My Email: joshuaorlando.r@gmail.com
 
 
-  Signed - Josh
+  Signed - Joshua Orlando Ramkissoon

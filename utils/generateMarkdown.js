@@ -4,7 +4,7 @@ function renderLicenseBadge(license) { //license will be the name of a list obje
   if (!license) {
     return '';
   } else {
-    return `[![${license} license](https://img.shields.io/badge/License-${license}] (${renderLicenseLink(license)})` //Used a public git repo that had several links to liscenses available and repurposed the link to create this universal one - link : https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba - I hope this isnt cheating, figured this would be okay to use!
+    return `[![${license} license](https://img.shields.io/badge/License-${license}-brightgreen.svg] (${renderLicenseLink(license)})` //Used a public git repo that had several links to liscenses available and repurposed the link to create this universal one - link : https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba - I hope this isnt cheating, figured this would be okay to use!
   }
 }
 
@@ -37,14 +37,15 @@ function generateMarkdown(data) {
   ${renderLicenseBadge(data.license)}
   
   ## Table of Contents 
-  *[Description](#description)
-  *[Requirements](#requirements)
-  *[Installation](#installation)
-  *[useage](#useage)
-  *[licence](#licence) 
-  *[Examples](#examples)
-  *[Contact](#contact)
-
+  * [Description](#description) 
+  * [Requirements](#requirements) 
+  * [Installation](#installation) 
+  * [Useage](#useage) 
+  * [Licence](#licence) 
+  * [Contributions](#contributions)
+  * [Examples](#examples) 
+  * [Contact](#contact) 
+ 
   ## Description
   ${data.description} 
 
@@ -60,10 +61,13 @@ function generateMarkdown(data) {
   ## License 
   ${renderLicenseSection(data.license)}
 
-  ## Examples 
+  ## Contributions
+  ${data.contributions}
+
+  ## Tests 
   ${data.examples}
 
-  ## Contact 
+  ## Questions 
   Thank you for your interest in my application, ${data.title}! 
   If you have any questions, concerns, or would like to reach out for any other reason;
   My Github: ${data.gitCredentials}

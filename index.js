@@ -125,6 +125,19 @@ const questions = [
         }
     },
     {
+        type:'input',
+        name:'contributions',
+        message:'Please provide instructions on how you would like potential users to contribute to the project',
+        validate: contributionsInput => {
+            if (contributionsInput) {
+                return true;
+            } else {
+                console.log('You must explain any parameters for contributing to your application. If you do not want contributors, please specify this.')
+                return false;
+            }
+        }
+    },
+    {
         type: 'input',
         name: 'examples',
         message: 'Please provide examples of your application in practice. You may do this manually, but provide a short description of what you are showcasing.',
