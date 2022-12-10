@@ -33,7 +33,9 @@
   I am not accepting contributions at this time, thank you!
 
   ## Tests 
-  Video Walkthrough of Application: 
+  Video Walkthrough of Application
+  [Uploading README Generator Showcase.webm…]
+
 
   ## Questions 
   Thank you for your interest in my application, README Generator using NodeJS! 
